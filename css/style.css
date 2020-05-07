@@ -1,6 +1,9 @@
 body {
     background-color: #0e2e20;
-    color: #32e129;
+    color: #37b478;
     font-family: 'Share Tech Mono';
-    text-align: center;
+}
+
+a {
+    color: #37b478;  
 }

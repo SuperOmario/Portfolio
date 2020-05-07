@@ -2,14 +2,48 @@
 <html>
     <head>
         <title>Omar Sallam | Portfolio</title>
-        <link href="css/terminal.css" rel='stylesheet'></style>
+        <link href='css/style.css' rel='stylesheet'></style>
         <link href='https://fonts.googleapis.com/css?family=Share Tech Mono' rel='stylesheet'>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha256-+izcH23qgte+aiGZRxk63BxGUyoQrAQZVoH2zKU9usM=" crossorigin="anonymous"></script>
         <meta charset="UTF-8">
         <meta name="description" content="Personal and Professional Portfolio">
-        <meta name="author" content="Omar Sallam">   
+        <meta name="author" content="Omar Sallam">  
     </head>
     <body>
-        <h1>Omar Sallam</h1>
-        <h2>Business Information Systems Student in UCC</h2>
+        <div id='typed-strings'>
+        <div>Welcome to Omar Sallam (TM) TermLink <br>
+            Omar Sallam's Personal Log <br><br><br>
+
+
+        --------------------------------------------------
+            <div id="date"></div>
+            I am a Business Information Systems student in UCC <br>
+            I am currently the Secretary for UCC Netsoc <br>
+
+        --------------------------------------------------
+            <div id='contact'>
+                Contact
+                <ul>
+                    <li><a href='https://www.linkedin.com/in/omar--sallam/'>LinkedIn</a></li>
+                    <li><a href='https://github.com/SuperOmario'>GitHub</a></li>
+                </ul>
+            </div>
+
+        --------------------------------------------------
+            <div id="projects">
+                Projects
+                <ul>
+                    <li><a href='https://github.com/SuperOmario/Lycan'>Lycan - A Statically Typed Interpreted Language (Very Early WIP)</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div id="typed"></div>
     </body>
+    
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings', typeSpeed: 0.5
+        })
+    </script>
 </html>
