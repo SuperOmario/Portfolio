@@ -2,6 +2,7 @@ body {
     background-color: #0e2e20;
     color: #37b478;
     font-family: 'Share Tech Mono';
+    text-shadow: 1px 1px 1px #37b478, 1px 1px 10px #37b478;
 }
 
 a {
